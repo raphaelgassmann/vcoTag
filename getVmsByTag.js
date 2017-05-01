@@ -1,7 +1,7 @@
 /**
  * @param endpoint:VAPIEndpoint
  * @param tagName:string
- * @retrun a array of VMs VC:VirtualMachine where specified tag is assigned
+ * @return a array of VMs VC:VirtualMachine where specified tag is assigned
  * created by raphaelgassmann on 29.04.17
 */
 
