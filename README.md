@@ -2,8 +2,11 @@
 VMware Orchestrator Tag Management
 
 Here is a way to lookup for VMs in your environment who have a specified tag assigned.
-Create an action with following specs:
+Create actions with following specs:
 <table>
+  <tr>
+  <td><b>getVmsByTag</b></td>
+  </tr>
   <tr>
     <td>Return type:</td>
     <td>Array/VC:VirtualMachine</td>
@@ -15,5 +18,20 @@ Create an action with following specs:
   <tr>
     <td></td>
     <td>tagName:string</td>
+  </tr>
+  <tr>
+  <td><b>getTagsOfCategory</b></td>
+  </tr>
+  <tr>
+    <td>Return type:</td>
+    <td>Array/string</td>
+  </tr>
+  <tr>
+    <td>Parameter</td>
+    <td>endpoint:VPAPIEndpoint</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>categoryName:string</td>
   </tr>
 </table>
