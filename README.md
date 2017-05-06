@@ -19,6 +19,7 @@ Create actions with following specs:
     <td></td>
     <td>tagName:string</td>
   </tr>
+
   <tr>
   <td><b>getTagsOfCategory</b></td>
   </tr>
@@ -33,5 +34,21 @@ Create actions with following specs:
   <tr>
     <td></td>
     <td>categoryName:string</td>
+  </tr>
+
+  <tr>
+  <td><b>getTagIdByTagName</b></td>
+  </tr>
+  <tr>
+    <td>Return type:</td>
+    <td>tagId:string</td>
+  </tr>
+  <tr>
+    <td>Parameter</td>
+    <td>endpoint:VPAPIEndpoint</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>tagName:string</td>
   </tr>
 </table>
